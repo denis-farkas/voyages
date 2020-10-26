@@ -1,0 +1,104 @@
+h1 {
+    font-family: "Open Sans", Arial, sans-serif;
+    color: rgb(78, 73, 73);
+}
+
+#header {
+    width: 100%;
+    min-height: 280px;
+}
+
+#header-body {
+    height: 280px;
+    box-shadow: 0px 6px 9px -8px rgba(64, 64, 64, 1);
+}
+
+#header-body-fond {
+    background: url('img/home.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.60) 100%),
+        url('img/home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.title-country {
+    font-weight: 700;
+    font-size: 60px;
+    padding-top: 10px;
+    font-family: "Open Sans", Arial, sans-serif;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.title-Section {
+    font-weight: 700;
+    font-size: 6vw;
+    padding: 20px 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: rgb(223, 189, 96);
+    text-shadow: 0px 7px 10px rgb(128, 128, 128);
+    background-color: rgb(157, 200, 82);
+}
+
+.title-Section-2 {
+    font-weight: 700;
+    font-size: 3vw;
+    padding: 20px 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: rgb(171, 241, 105);
+    text-shadow: 0px 7px 10px rgb(128, 128, 128);
+    background-color: rgb(82, 200, 200);
+}
+
+.title-Section-3 {
+    font-weight: 700;
+    font-size: 3vw;
+    padding: 20px 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: rgb(255, 230, 0);
+    text-shadow: 0px 7px 10px rgb(128, 128, 128);
+    background-color: orange;
+}
+
+.sub-title-Section {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 20px 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    margin-top: 10px;
+    line-height: 1.5;
+    color: rgb(138, 134, 134);
+    text-shadow: -1px 0 rgb(168, 164, 164), 0 1px rgb(168, 164, 164), 1px 0 rgb(168, 164, 164), 0 -1px rgb(168, 164, 164);
+}
+
+.sub-paragraf {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    margin-top: 5px;
+}
+
+.header-logo {
+    float: left;
+    position: relative;
+    height: 160px;
+    width: auto;
+}
+
+hr {
+    border: 0;
+    border-bottom: solid 1px rgba(210, 215, 217, 0.75);
+    margin: auto;
+    width: 50%;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
