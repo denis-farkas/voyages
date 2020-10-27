@@ -161,6 +161,15 @@ hr {
   padding: 20px;
 }
 
+.section-flex {
+    display: flex;
+  background-color: whitesmoke;
+  box-shadow: 0px 6px 9px -8px rgba(64, 64, 64, 1);
+  margin: 20px auto;
+  padding: 20px;
+  justify-content: center;
+}
+
 
 
 /* Image */
