@@ -1,11 +1,11 @@
-h1{
+.slideshow h1{
 	text-align: center;
 	margin:40px;
 }
 
 *{box-sizing: border-box }
 
-img{
+.slideshow img{
 
 max-width:100%
 
