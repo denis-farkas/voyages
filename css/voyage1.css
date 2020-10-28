@@ -860,13 +860,13 @@ footer a {
 }
 
 .details-voir{
-    background-color: rgb(197, 245, 245) !important;
+    background-color: rgb(197, 245, 245);
     margin: 20px;
     padding: 10px;
 }
 
 .details-faire{
-    background-color: rgb(185, 248, 227) !important;
+    background-color: rgb(185, 248, 227);
     margin: 20px;
     padding: 10px;
 }
@@ -889,4 +889,7 @@ footer a {
     padding: 10px;
 }
 /*fin css details-vietnam*/
+
+
+
 
