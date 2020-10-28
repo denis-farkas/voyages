@@ -54,11 +54,12 @@ h1 {
 }
 
 #header-body-fond {
-    background: url("../img/home.jpg");
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.60) 100%), url("../img/img1/panorama.jpg");
+    background: url("../img/img2/panorama.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.60) 100%), url("../img/img2/panorama.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
+    
 }
 
 .title-country {
@@ -177,7 +178,7 @@ hr {
   box-shadow: 0px 6px 9px -8px rgba(64, 64, 64, 1);
   margin: 20px auto;
   padding: 20px;
-  height: 300px;
+  height: 400px;
   
 }
 
@@ -820,7 +821,8 @@ footer a {
 /*css section tableau-periodes*/
 .tableau-periodes{
     font-family: "Open Sans", Arial , sans-serif;
-    
+    font-size: 15px;
+    padding-top: 40px;
 }
 
 .tableau-periodes span{
@@ -851,6 +853,103 @@ footer a {
     background-color: rgb(243, 241, 241)
 }
 /*fin css section tableau-periodes*/
+
+
+/*début css section slideshow-malaisie*/
+
+.slideshow h1{
+	text-align: center;
+    margin:40px;
+}
+
+*{box-sizing: border-box }
+
+.slideshow img{
+max-width:100%
+}
+
+.slideshow{
+
+border: 5px solid white;
+box-shadow: 0 0 5px hsla(0,0%,0%,.5);
+overflow: hidden;
+max-width: 800px;
+margin: 2rem auto;
+position: relative
+}
+    
+.slideshow ul{
+
+padding-bottom: 66.67%;/* ratio pour le responsive */
+margin: 0;
+list-style-type: none;
+position: relative
+}
+    
+ 
+.slideshow li{
+
+top: 0;
+left: 0;
+animation: slideshow 25s ease infinite;
+position: absolute;
+opacity: 0;
+}
+ 
+.slideshow li:nth-child(2){
+
+animation-delay: 5s
+
+}
+
+.slideshow li:nth-child(3){
+
+animation-delay: 10s
+
+}
+
+.slideshow li:nth-child(4){
+
+animation-delay: 15s
+
+}
+
+.slideshow li:nth-child(5){
+
+animation-delay: 20s
+
+}
+    
+@keyframes slideshow{
+	
+0%{opacity: 0}
+
+10%{opacity: 1}
+
+20%{opacity: 1}
+
+25%{opacity: 0}
+
+100%{opacity: 0}
+	
+	} 
+    
+.slideshow p{
+padding:10px;
+background: rgba(0,0,0,0.7);
+max-height: 80px;
+text-align: center;
+color: white;
+position: absolute;
+bottom: 0;
+right: 0;
+left: 0
+}
+
+.slideshow span{
+	font-size: 20px;
+}
+/*fin css slideshow*/
 
 /*début css gallery*/
 

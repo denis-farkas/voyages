@@ -819,7 +819,8 @@ footer a {
 /*css section tableau-periodes*/
 .tableau-periodes{
     font-family: "Open Sans", Arial , sans-serif;
-    
+    font-size: 15px;
+    padding-top:40px;
 }
 
 .tableau-periodes span{
