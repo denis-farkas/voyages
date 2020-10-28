@@ -902,6 +902,40 @@ footer a {
     justify-content: space-between;
 }
 
+/*tableau périodes Thuc*/
+.tableau-periodes {
+    font-family: "Open Sans", Arial, sans-serif;
+    margin: 20px;
+}
+
+.tableau-periodes span {
+    font-weight: bold;
+}
+
+.tableau-periodes table {
+    border-collapse: collapse;
+
+}
+
+.tableau-periodes th,
+td {
+    padding: 10px;
+
+}
+
+.tableau-periodes th:nth-child(even),
+td:nth-child(even) {
+    background-color: rgb(223, 219, 219);
+}
+
+.tableau-periodes tr:nth-child(odd) {
+    background-color: rgb(235, 233, 233)
+}
+
+.tableau-periodes tr:nth-child(even) {
+    background-color: rgb(243, 241, 241)
+}
+
 
 
 
