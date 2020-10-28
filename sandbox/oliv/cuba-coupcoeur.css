@@ -9,9 +9,18 @@
     justify-content: space-between;
 }
 
+.coupcoeur-images img {
+    max-width: 90%;
+}
+
 .coupcoeur-video {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: auto;
+    padding: 10px;
+}
+
+h2,
+h3 {
+    text-align: center;
 }
