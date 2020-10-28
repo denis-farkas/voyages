@@ -185,15 +185,14 @@ hr {
 }
 
 .section-flex {
-    display: flex;
-    flex-direction: column;
     background-color: whitesmoke;
     box-shadow: 0px 6px 9px -8px rgba(64, 64, 64, 1);
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 20px;
-    justify-content: space-around;
-    height: 400px;
+    line-height: 25px;
+    text-align: center;
 }
+   
 
 .circle {
         background: #2A88AD;
@@ -900,6 +899,41 @@ footer a {
     flex-wrap: wrap;
     box-sizing: border-box;
     justify-content: space-between;
+}
+
+/*tableau périodes Thuc*/
+.tableau-periodes {
+    font-family: "Open Sans", Arial, sans-serif;
+    margin: 20px;
+}
+
+.tableau-periodes span {
+    font-weight: bold;
+}
+
+.tableau-periodes table {
+    border-collapse: collapse;
+
+
+}
+
+.tableau-periodes th,
+td {
+    padding: 10px;
+
+}
+
+.tableau-periodes th:nth-child(even),
+td:nth-child(even) {
+    background-color: rgb(223, 219, 219);
+}
+
+.tableau-periodes tr:nth-child(odd) {
+    background-color: rgb(235, 233, 233)
+}
+
+.tableau-periodes tr:nth-child(even) {
+    background-color: rgb(243, 241, 241)
 }
 
 
