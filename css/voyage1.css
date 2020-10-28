@@ -48,7 +48,7 @@ h1 {
 
 #header-body-fond {
     background: url("../img/home.jpg");
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.60) 100%), url("../img/home.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.60) 100%), url("../img/img1/panorama.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
@@ -813,7 +813,7 @@ footer a {
 /*css section tableau-periodes*/
 .tableau-periodes{
     font-family: "Open Sans", Arial , sans-serif;
-   
+    
 }
 
 .tableau-periodes span{
@@ -823,7 +823,7 @@ footer a {
 .tableau-periodes table{
     border-collapse: collapse;
     margin: 20px;
-    width: 100%;
+    width: 95%;
     overflow-x: auto;
 }
 
@@ -908,8 +908,6 @@ figure {
 }
 
 figcaption {
-    background-color: black;
-    color: white;
     font-style: italic;
     padding: 2px;
     text-align: center;
@@ -946,13 +944,30 @@ figcaption {
 
  /* Selecteur « target pour afficher l’image » */
  .twAudessus:target {
-     display: table;
- }
+    display: table;
+}
 
- .figure-gallery {
-     width:350px;
-     height: auto;
- }
+.justify{
+    text-align: justify;
+}
+
+.figure-gallery {
+    width:22%;
+    height: auto;
+}
+
+.figure-gallery img{
+    width:100%;
+    height: auto;
+}
+
+.row-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
  
 /* fin css gallery */
 
