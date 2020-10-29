@@ -177,8 +177,8 @@ hr {
   background-color: whitesmoke;
   box-shadow: 0px 6px 9px -8px rgba(64, 64, 64, 1);
   margin: 20px auto;
-  padding: 20px;
-  height: 400px;
+  padding: 40px;
+  max-height: 400px;
   
 }
 
@@ -855,6 +855,40 @@ footer a {
 /*fin css section tableau-periodes*/
 
 
+/* début css section détails-malaisie*/
+
+.details{
+    font-family: "Open Sans", Arial, sans-serif;
+    
+}
+
+ summary{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.details-voir{
+    background-color: rgb(197, 245, 245);
+    margin: 20px;
+    padding: 10px;
+}
+
+.details-faire{
+    background-color: rgb(185, 248, 227);
+    margin: 20px;
+    padding: 10px;
+}
+
+.details-cuisine{
+    background-color: beige;
+    margin: 20px;
+    padding: 10px;
+}
+
+/*fin css details-malaisie*/
+
+
+
 /*début css section slideshow-malaisie*/
 
 .slideshow h1{
@@ -1021,7 +1055,6 @@ figcaption {
     justify-content: space-between;
 }
 
- 
 /* fin css gallery */
 
 
