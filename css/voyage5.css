@@ -39,7 +39,8 @@ aside li {
 
 h1 {
     font-family: "Open Sans", Arial, sans-serif;
-    color:#9dc852;
+    color: rgb(78, 73, 73);
+    font-size: 30px;
 }
 
 #header {
@@ -108,7 +109,8 @@ h1 {
     font-family: "Open Sans", Arial, sans-serif;
     margin-top: 10px;
     line-height: 1.5;
-  text-shadow: 2px 1px 0 #7A7A7A;
+    color: rgb(138, 134, 134);
+    text-shadow: -1px 0 rgb(168, 164, 164), 0 1px rgb(168, 164, 164), 1px 0 rgb(168, 164, 164), 0 -1px rgb(168, 164, 164);
 }
 
 .sub-paragraf {

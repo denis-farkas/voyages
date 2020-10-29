@@ -39,7 +39,8 @@ aside li {
 
 h1 {
     font-family: "Open Sans", Arial, sans-serif;
-    color:#9dc852;
+    color: rgb(78, 73, 73);
+    font-size: 30px;
 }
 
 #header {
