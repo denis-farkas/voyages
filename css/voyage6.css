@@ -960,3 +960,39 @@ td:nth-child(even) {
 .tableau-periodes tr:nth-child(even) {
     background-color: rgb(243, 241, 241)
 }
+
+/* début css section détails-vietnam*/
+
+
+.details {
+    font-family: "Open Sans", Arial, sans-serif;
+    text-align: left;
+}
+
+.details h1 {
+    text-align: center;
+}
+
+.details summary {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.details span {
+
+    font-weight: bold;
+}
+
+.details-voir {
+    background-color: rgba(218, 194, 85, 0.897);
+    margin: 20px;
+    padding: 10px;
+}
+
+.details-faire {
+    background-color:rgb(218, 193, 85, 0.897);
+    ;
+    margin: 20px;
+    padding: 10px;
+}
