@@ -136,3 +136,7 @@
     border: 1px solid #1bd1e9;
     font-size: 15px;
 }
+
+.form-box {
+    padding: 30px;
+}
