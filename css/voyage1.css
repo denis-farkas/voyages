@@ -3,6 +3,31 @@
     padding: 0;
 }
 
+@media screen and (max-width: 600px) {
+   
+    .form-style-10 {
+        width: 80%;
+    }
+    aside {
+        display: none;
+    }
+    iframe {
+        width:100%;
+        height: auto;
+    }
+
+
+    figure.figure-gallery{
+        width:80%;
+        height: auto;
+       margin: auto;
+    }
+
+    .tableau-periodes.section-flex table {
+        display:none;
+    }
+}
+
 html,
 body {
     box-sizing: border-box;
