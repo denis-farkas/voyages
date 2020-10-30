@@ -28,6 +28,10 @@ body {
         height: auto;
        margin: auto;
     }
+
+    .tableau-periodes.section-flex table {
+        display:none;
+    }
 }
 
 .thumb {
