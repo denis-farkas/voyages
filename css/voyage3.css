@@ -24,6 +24,11 @@ body {
         height: auto;
     }
 
+    video{
+        width:100%;
+        height: auto;
+    }
+
 
     figure.figure-gallery{
         width:80%;
@@ -31,7 +36,7 @@ body {
        margin: auto;
     }
 
-    .tableau-periodes.section-flex table {
+    .tableau-periodes table {
         display:none;
     }
 }
@@ -988,6 +993,7 @@ td:nth-child(even) {
 .coupcoeur-video {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 10px;
     padding-top: 20px;
