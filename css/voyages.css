@@ -9,6 +9,25 @@ body {
     background-color: #fcfcfc;
 }
 
+@media screen and (max-width: 600px) {
+   
+    .form-style-10 {
+        width: 80%;
+    }
+    aside {
+        display: none;
+    }
+    iframe{
+        width:100%;
+        height: auto;
+    }
+
+
+    figure.figure-gallery{
+        width:80%;
+        height: auto;
+       margin: auto;
+    }
 .thumb {
     width: 50%;
     height: auto;
