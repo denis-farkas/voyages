@@ -12,23 +12,20 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-   
     .form-style-10 {
         width: 80%;
     }
     aside {
         display: none;
     }
-    iframe{
-        width:100%;
+    iframe {
+        width: 100%;
         height: auto;
     }
-
-
-    figure.figure-gallery{
-        width:80%;
+    figure.figure-gallery {
+        width: 80%;
         height: auto;
-       margin: auto;
+        margin: auto;
     }
 
     .tableau-periodes.section-flex table {
@@ -874,7 +871,7 @@ footer a {
 /* IMMERSION */
 
 figure {
-    border: 1px #cccccc solid;
+    border: 2px #d9e06a solid;
     padding: 4px;
     margin: 20px auto;
 }
@@ -999,7 +996,7 @@ figcaption {
 }
 
 
-/* COUPS DE COEUR */
+/* COUPS DE COEUR sur la route de Tolkien */
 
 .slideshow h1 {
     text-align: center;
@@ -1015,7 +1012,7 @@ figcaption {
 }
 
 .slideshow {
-    border: 5px solid white;
+    border: 5px solid whitesmoke;
     box-shadow: 0 0 5px hsla(0, 0%, 0%, .5);
     overflow: hidden;
     max-width: 800px;
