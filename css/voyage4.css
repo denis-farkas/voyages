@@ -1003,6 +1003,22 @@ figcaption {
     margin: 40px;
 }
 
+.slideshow p{
+    padding:10px;
+    background: rgba(0,0,0,0.7);
+    max-height: 80px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0
+    }
+    
+    .slideshow span{
+        font-size: 20px;
+    }
+    
 * {
     box-sizing: border-box
 }
