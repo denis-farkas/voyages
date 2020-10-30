@@ -857,10 +857,6 @@ footer a {
 
 /* début css section détails-malaisie*/
 
-.details{
-    font-family: "Open Sans", Arial, sans-serif;
-    
-}
 
  summary{
     font-size: 20px;
@@ -872,11 +868,17 @@ footer a {
     margin: 20px;
     padding: 10px;
 }
-
+.details-voir td{
+    background-color:white;
+    
+}
 .details-faire{
     background-color: rgb(185, 248, 227);
     margin: 20px;
     padding: 10px;
+}
+.details-faire td{
+    background-color: white;
 }
 
 .details-cuisine{
@@ -884,7 +886,9 @@ footer a {
     margin: 20px;
     padding: 10px;
 }
-
+.details-cuisine td{
+    background-color: white;
+}
 /*fin css details-malaisie*/
 
 

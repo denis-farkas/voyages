@@ -855,6 +855,8 @@ footer a {
 .details{
     font-family: "Open Sans", Arial, sans-serif;
     text-align: left;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 .details h1{
